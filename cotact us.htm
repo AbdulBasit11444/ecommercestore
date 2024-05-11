@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          .div1 {
+      background-color: steelblue;
+      text-align: center;
+      height: 50px;
+      padding-top: 2px;
+    }
+    .div2{
+      background-color: steelblue;
+      
+      height: 50px; /* Set the height of the div as needed */
+    }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <ul style="list-style-type: none;">
+          <li style="display: inline;margin: 20px;"><a href="./index.html">Homepage</a></li>
+          <li style="display: inline;margin: 20px;"><a href="./about us.html" target="_blank">About page</a></li>
+          <li style="display: inline;margin: 20px;"><a href="./cotact us.htm" target="_blank">Contact page</a></li>
+          <li style="display: inline;margin: 20px;"><a href="./login and sign up page.html" target="_blank">Signup</a></li>
+        </ul>
+      </div>
+    <form  action="./submitpage.htm" >
+        <fieldset style="width: 400px; margin: auto; background-color: aqua;">
+            <legend>Contact-Us</legend>
+            <table >
+                <tr>
+                    <Th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Do you use CiviCrm? </td>
+                    <td><input id="yes" type="radio" name="option" /><label for="yes">Yes</label><input id="No"
+                            type="radio" name="option" /><label for="No">No</label> <a href="">(unselect)</a> 
+                        
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        How long have you been using CiviCrm?
+                    </td>
+                    <td>
+                        <select>
+                            <option>option1</option>
+                            <option>option2</option>
+                            <option>option3</option>
+                            <option>option4</option>
+                            <option selected>-select-</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Your skill Test
+                    </td>
+                    <td>
+                        <select>
+                            <option>option1</option>
+                            <option>option2</option>
+                            <option>option3</option>
+                            <option>option4</option>
+                            <option selected>-select-</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email*</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fn">First Name*</label>
+                    </td>
+                    <td>
+                        <input type="text" id=fn required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ln">Last Name*</label>
+                    </td>
+                    <td>
+                        <input type="text" id=ln required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>First and last name will be shared with other visitor of the site</td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sa">Street Address(Home)</label>
+                    </td>
+                    <td>
+                        <input type="text" id="sa" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="c">City(Home)</label>
+                    </td>
+                    <td>
+                        <input type="text" id="c" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pc"> Postal Code(Home)</label>
+                    </td>
+                    <td>
+                        <input type="number" id="pc" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Country(Home)
+                    </td>
+                    <td>
+                        <select>
+
+                            <option>United States</option>
+                            <option>Germany</option>
+                            <option selected>Pakistan</option>
+                            <option>Dubai</option>
+                            <option>France</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Your State/province and country of residence will be shared with others so folk can find other
+                        in their community.</td>
+                </tr>
+                <tr>
+                    <td>
+                        State(Home)
+                    </td>
+                    <td>
+                        <select>
+                            <option>option1</option>
+                            <option>option2</option>
+                            <option>option3</option>
+                            <option>option4</option>
+                            <option selected>-select-</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            </legend>
+             <input type="submit"/>
+        <input type="button" value="Cancel"/>
+        </fieldset>
+        
+    </form>
+    <div class="div2" style="text-align: center; box-sizing: border-box; padding-top: 15px; margin-top: 5PX;">
+        @All right Reserved.
+    
+      </div>
+       
+</body>
+</html>
